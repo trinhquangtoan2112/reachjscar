@@ -1,0 +1,12 @@
+.card_header{
+    color: blue;
+    font-size: 18px;
+    text-align: left;
+    background-color: grey;
+    padding:  10px 10px;
+}
+
+.card-body .card_item .card_text{
+    text-align: left;
+    
+}
