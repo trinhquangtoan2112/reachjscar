@@ -1,13 +1,15 @@
 
 import './App.css';
-import Baitapchonxe from './Baitapchonxe/Baitapchonxe';
-import Renderloop from './Rednerloop/Renderloop';
+import Baitaprenderphim from './BaitapRender/Baitaprenderphim';
+
 
 function App() {
   return (
     <div className="App">
      {/* <Baitapchonxe></Baitapchonxe> */}
-     <Renderloop></Renderloop>
+     {/* <Renderloop></Renderloop> */}
+
+     <Baitaprenderphim></Baitaprenderphim>
     </div>
   );
 }

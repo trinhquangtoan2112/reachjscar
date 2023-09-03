@@ -1,0 +1,45 @@
+.header__item{
+    display: flex;
+    background-color: purple;
+    opacity: 0.5;
+}
+
+.header__item>div{
+    margin: 0 20px;
+}
+
+.header__item .header__name a{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.header__phu a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+.header__phu .active{
+    opacity: 1;
+    border-bottom: 1px solid yellow;
+}
+
+
+.header__phu .Dropdown{
+    position: relative;
+    transition: all .5s;
+}
+.header__phu .Dropdown:hover .dropdownmenu{
+    display: inline-block;
+}
+.header__phu .Dropdown .dropdownmenu{
+    position: absolute;
+    display: none;
+   top: 100%;
+  left:-30%
+}

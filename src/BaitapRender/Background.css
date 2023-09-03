@@ -1,0 +1,9 @@
+.background{
+    background-image: url("../Data/avanger.jpg");
+    height: max-content;
+    width: max-content;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px !important;
+}
